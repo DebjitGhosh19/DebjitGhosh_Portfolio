@@ -7,7 +7,7 @@ import { IoMdSchool } from "react-icons/io";
 const dateClasses = "sm:text-orange-500 font-bold bg-white/20 px-3 py-1 rounded-lg";
 const WorkExperience = () => {
   return (
-    <div className="bg-[#f5f7fa] min-h-screen py-10" id="workexperience">
+    <div className="bg-[#f5f7fa] min-h-screen py-20" id="workexperience">
       <h2 className="text-center mb-8 text-[#22223b] font-bold text-4xl tracking-wide">
         Work Experience
       </h2>

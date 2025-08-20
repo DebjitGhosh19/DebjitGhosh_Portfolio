@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div id="projects">
       <div>
-        <h1 className="text-4xl font-bold text-center text-indigo-700 py-10" >
+        <h1 className="text-4xl font-bold text-center text-indigo-700 py-20" >
           Top Recent Projects
         </h1>
         <p className="text-center text-gray-600 mb-8">

@@ -7,7 +7,7 @@ const dateClasses = "sm:text-orange-500 font-bold bg-white/20 px-3 py-1 rounded-
 
 const Education = () => {
   return (
-    <div className="bg-[#f5f7fa] min-h-screen py-10 " id="education">
+    <div className="bg-[#f5f7fa] min-h-screen py-20 " id="education">
       <h2 className="text-center mb-8 text-[#22223b] font-bold text-4xl tracking-wide">
         Education Details
       </h2>

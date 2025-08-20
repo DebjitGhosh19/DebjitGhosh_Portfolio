@@ -4,7 +4,7 @@ import Bounce from "react-reveal/Bounce";
 const About = () => {
   return (
     <Bounce>
-    <div className="shadow-lg m-5 sm:m-10" id="about">
+    <div className="py-20 shadow-lg m-5 sm:m-10" id="about">
       <h1 className="text-4xl underline text-center mt-10 font-serif font-bold bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-transparent bg-clip-text">
         About Me
       </h1>
