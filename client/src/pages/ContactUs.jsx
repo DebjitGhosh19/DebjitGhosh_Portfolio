@@ -9,9 +9,22 @@ const ContactUs = () => {
   const [message, setMessage] = useState("");
 
   const handleSubmit = async(e) => {
- 
+
+
     e.preventDefault();
- 
+     //validation 
+     if (!name || !email || !message) {
+       toast.error('All fields are required');
+       return;
+     }
+
+    // Check if email is valid
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailPattern.test(email)) {
+      toast.error('Invalid email address');
+      return;
+    }
+
     //Api call using axios
     try {
       const response = await axios.post('https://debjitghosh-portfolio-backend.onrender.com/api/v1/portfolio/sendEmail', {

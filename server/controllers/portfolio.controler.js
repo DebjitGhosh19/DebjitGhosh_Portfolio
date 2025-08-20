@@ -5,6 +5,7 @@ export const sendEmail = (req, res) => {
  try {
       const {name, email, message} = req.body;
 
+
 // Create a test account or replace with real credentials.
 const transporter = nodemailer.createTransport({
   host: "smtp.gmail.com",
@@ -27,7 +28,7 @@ const transporter = nodemailer.createTransport({
            <p><strong>Message:</strong> ${message}</p>`,
   });
 
-  console.log("Message sent:", info.messageId);
+  
 })();
 
 res.status(200).json({
