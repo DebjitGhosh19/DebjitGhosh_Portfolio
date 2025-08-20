@@ -14,7 +14,7 @@ const ContactUs = () => {
  
     //Api call using axios
     try {
-      const response = await axios.post('http://localhost:8080/api/v1/portfolio/sendEmail', {
+      const response = await axios.post('https://debjitghosh-portfolio-backend.onrender.com/api/v1/portfolio/sendEmail', {
       name,
       email,
       message
