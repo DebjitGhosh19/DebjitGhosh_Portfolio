@@ -12,7 +12,7 @@ export const projects = [
       image: ToDoApp,
       title: "To Do App",
       tech: ["React JS", "Express JS", "Node JS", "MongoDB"],
-      link: "https://github.com/yourusername/todo-app",
+      link: "https://to-do-app-git-main-debjit-ghoshs-projects-20257a83.vercel.app",
     },
     {
       image: ChatApp,
