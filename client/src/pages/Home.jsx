@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import cv from "../assets/doc/Debjit Mern Resume (1) (1).pdf";
+import cv from "../assets/doc/Cv.pdf";
 import Fade from "react-reveal/Fade";
 const Home = () => {
   return (
@@ -29,7 +29,7 @@ const Home = () => {
             Hire Me
           </a>
           <button className="bg-gray-700 text-white px-4 py-2 rounded-md hover:bg-gray-600 cursor-pointer ">
-            <a href={cv} download="DEBJIT_GHOSH_cv.pdf">
+            <a href={cv} download="Cv.pdf">
               My Resume
             </a>
           </button>
