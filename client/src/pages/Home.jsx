@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import cv from "../assets/doc/DEBJIT_GHOSH_cv .pdf";
+import cv from "../assets/doc/Debjit Mern Resume (1) (1).pdf";
 import Fade from "react-reveal/Fade";
 const Home = () => {
   return (
