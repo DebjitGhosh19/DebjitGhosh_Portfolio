@@ -1,4 +1,5 @@
 import ECommarce from '../assets/images/E-commarce.jpeg'
+import ChatApp from '../assets/images/ChatApp.png'
 // import ToDo from '../assets/images/TODO.png'
 // import Blog from '../assets/images/Blog.png'
 export const projects = [
@@ -25,7 +26,7 @@ export const projects = [
       image:ChatApp,
       title: "Chat App",
       tech: ["React JS", "Express JS", "Node JS", "MongoDB",],
-      link: "https://chat-app-pi-ten-hxt9kunirj.vercel.app/login",
+      link: "https://chat-app-pi-ten-hxt9kunirj.vercel.app/",
       
     }
 
