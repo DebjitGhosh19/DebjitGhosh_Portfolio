@@ -1,5 +1,5 @@
 import ECommarce from '../assets/images/E-commarce.jpeg'
-import ChatApp from '../assets/images/ChatApp.png'
+import ChatApp from '../assets/images/ChatApp.jpeg'
 // import ToDo from '../assets/images/TODO.png'
 // import Blog from '../assets/images/Blog.png'
 export const projects = [
