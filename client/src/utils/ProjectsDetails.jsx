@@ -21,5 +21,12 @@ export const projects = [
        tech: ["React JS", "Express JS", "Node JS", "MongoDB",],
        link: "https://ecom-two-cyan-25.vercel.app/",
     },
+    {
+      image:ChatApp,
+      title: "Chat App",
+      tech: ["React JS", "Express JS", "Node JS", "MongoDB",],
+      link: "https://chat-app-pi-ten-hxt9kunirj.vercel.app/login",
+      
+    }
 
   ];
